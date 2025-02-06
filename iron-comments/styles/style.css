@@ -2,10 +2,30 @@ body {
     padding: 0;
     margin: 0;
     padding-top: 100px;
-    width: 100vw;    
-
+    width: 100vw; 
+    background-color: rgb(25,33,41);
 }
 
-#form-container {
+:root{
+    --dark-blue: rgb(25,33,41);
+    --light-blue:  rgb(67, 163, 230);
+    --text: rgb(255,255,255)
+}
+.text{
+    color: white;
+}
+.button{
+    background-color: var(--light-blue);
+    border-radius: 10px;
+}
+
+
+.form-container{
+    color: rgb(255,255,255);
     margin: auto;
+    width: fit-content;
+    border-color:var(--light-blue) ;
 }
+
+
+ 
